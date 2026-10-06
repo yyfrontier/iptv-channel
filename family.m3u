@@ -5,6 +5,8 @@ https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CCTV1.cn@SD" tvg-logo="https://i.imgur.com/TpA3cUl.png" group-title="Chinese",CCTV-1 (720p)
 http://74.91.26.218:82/live/cctv1hd.m3u8
+#EXTINF:-1 tvg-id="CCTV1.cn@HD" tvg-logo="https://i.imgur.com/TpA3cUl.png" group-title="Chinese",CCTV-1 HD (1080p)
+http://69.30.245.50/live/cctv1.m3u8
 #EXTINF:-1 tvg-id="CCTV10.cn@SD" tvg-logo="https://i.imgur.com/sSSO7UD.png" group-title="Chinese",CCTV-10 (720p)
 http://74.91.26.218:82/live/cctv10hd.m3u8
 #EXTINF:-1 tvg-id="CCTV11.cn@SD" tvg-logo="https://i.imgur.com/CjOWx7L.png" group-title="Chinese",CCTV-11 (720p)
@@ -91,8 +93,6 @@ https://igrejamundial.nuvemplay.live/hls/stream.m3u8
 https://amg01515-amg01515c17-xumo-us-2489.playouts.now.amagi.tv/bamus-lovenaturespanish-roku/playlist.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.cz@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" group-title="Geographic & Technology",National Geographic (Czech Republic)
 http://88.212.15.19/live/test_ngc/playlist.m3u8
-#EXTINF:-1 tvg-id="NationalGeographic.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143573_ld_h15_aa.png?lock=720x540" group-title="Geographic & Technology",National Geographic (India) (576p)
-http://51.75.127.199:3141/natgeo/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/s143574_ld_h15_aa.png?lock=720x540" group-title="Geographic & Technology",National Geographic (India) HD (1080p)
 http://51.75.127.199:3141/natgeohd/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.us@HDEast" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Geographic & Technology",National Geographic (United States) HD East (720p)
@@ -101,12 +101,10 @@ http://198.58.104.90:8989/natgeo/index.m3u8
 http://88.212.15.29/live/test_ngw/playlist.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicWild.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png" group-title="Geographic & Technology",National Geographic Wild (India) (576p)
 http://51.75.127.199:3141/natgeowild/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWild.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png" group-title="Geographic & Technology",National Geographic Wild (India) HD (1080p)
+http://103.185.24.134:3001/NATGEO-WILD-HD/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicWild.us@HDEast" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" group-title="Geographic & Technology",National Geographic Wild (United States) HD East (720p)
 http://198.58.104.90:8989/natgeowild/index.m3u8
-#EXTINF:-1 tvg-id="SmithsonianChannelPlutoTV.us@LatAm" tvg-logo="https://images.pluto.tv/channels/6298bd10d88ef000073f16b7/colorLogoPNG.png" group-title="Geographic & Technology",Smithsonian Channel Pluto TV LatAm
-https://jmp2.uk/plu-63a084934734f30007457b2c.m3u8
-#EXTINF:-1 tvg-id="SmithsonianChannelSelects.us@SD" tvg-logo="https://i.imgur.com/Kt5j8Vr.png" group-title="Geographic & Technology",Smithsonian Channel Selects (United States)
-https://jmp2.uk/plu-5f21ea08007a49000762d349.m3u8
 #EXTINF:-1 tvg-id="NHKGeneralTV.jp@SD" tvg-logo="https://i.imgur.com/fAZ2BEZ.png" group-title="Japan",NHK General TV (720p)
 https://nhk4.mov3.co/hls/nhk.m3u8
 #EXTINF:-1 tvg-id="NHKWorldPremium.jp@SD" tvg-logo="https://i.imgur.com/4ESi2La.png" group-title="Japan",NHK World Premium (720p)
@@ -149,14 +147,14 @@ http://88.212.15.19/live/disney_channel_hun/index.m3u8
 http://181.78.8.199:8000/play/a0dn/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@PanregionalHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="Movie",Disney Channel Latin America Panregional HD (1080p)
 http://45.134.141.161:2200/ARG/Disney_Channel/index.m3u8
+#EXTINF:-1 tvg-id="DisneyInternationalHD.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_INTERNATIONAL_HD/images/LOGO_HD/image.png" group-title="Movie",Disney International HD (576p)
+http://103.151.60.162:2122/play/a018/index.m3u8?hls
 #EXTINF:-1 tvg-id="DisneyJrLatinAmerica.ar@North" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="Movie",Disney Jr. Latin America (1080p)
 http://190.14.10.19:16000/play/a02d/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJrLatinAmerica.ar@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="Movie",Disney Jr. Latin America South (1080p)
 http://45.185.163.75:8000/play/a016/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJrLatinAmerica.ar@SouthHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="Movie",Disney Jr. Latin America South HD (1080p)
 http://45.134.141.161:2200/ARG/Disney_Junior/index.m3u8
-#EXTINF:-1 tvg-id="DisneyXD.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2015_Disney_XD_logo.svg/960px-2015_Disney_XD_logo.svg.png" group-title="Movie",Disney XD (United States) (720p)
-http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8
 #EXTINF:-1 tvg-id="HallmarkMoviesMore.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/29af70d1-d3ba-4a16-bc4d-bd99e7e7def4/hallmark-movies-and-more_color.png" group-title="Movie",Hallmark Movies & More (1080p)
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709
 #EXTINF:-1 tvg-id="BBCAmerica.us@East" tvg-logo="https://i.imgur.com/pTiiPz0.png" group-title="Others",BBC America (720p)
@@ -165,6 +163,8 @@ http://23.239.31.26:8989/bbcamerica/index.m3u8
 https://d1e9r0b71zfwk7.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCHomeGarden.us@SD" tvg-logo="https://i.imgur.com/rC0pi1D.png" group-title="Others",BBC Home & Garden (1080p)
 https://d11r33s5i066xh.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCLifestyle.uk@Asia" tvg-logo="https://i.imgur.com/9mzJJ3y.png" group-title="Others",BBC Lifestyle Asia (720p)
+http://58.8.186.128:10003/bysid/2333
 #EXTINF:-1 tvg-id="BBCNews.uk@UK" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" group-title="Others",BBC News (1080p)
 https://xemzi.short.gy/1000015
 #EXTINF:-1 tvg-id="BBCNews.uk@LatinAmerica" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" group-title="Others",BBC News Latin America (720p)
@@ -221,18 +221,16 @@ https://cnbc-live.akamaized.net/cnbc/master.m3u8
 https://cdn4.skygo.mn/live/disk1/CNBC/HLSv3-FTA/CNBC.m3u8
 #EXTINF:-1 tvg-id="CNBCUK.uk@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png" group-title="Others",CNBC UK (1080p)
 https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="EuronewsEnglish.fr@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Euro_News.png" group-title="Others",Euronews English (720p)
-https://jmp2.uk/plu-61de96114757070008d33cae.m3u8
 #EXTINF:-1 tvg-id="EuronewsEnglish.fr@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Euro_News.png" group-title="Others",Euronews English HD
 https://dash4.antik.sk/live/test_euronews/playlist.m3u8
 #EXTINF:-1 tvg-id="EuronewsFrench.fr@SD" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="Others",Euronews French (720p)
 https://2f6c5bf4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0ZyYW5jYWlzX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-id="EuronewsGerman.fr@SD" tvg-logo="https://staticcyl.euronews.com/wp-content/uploads/2023/03/Logo_Euronews_white-on-neon_german_RGB.png" group-title="Others",Euronews German (720p)
-https://jmp2.uk/plu-6639d7d4b18d700008da5316.m3u8
 #EXTINF:-1 tvg-id="EuronewsGreek.fr@SD" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="Others",Euronews Greek (720p)
 https://cdn-euronews.akamaized.net/live/eds/euronews-el/25068/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsItalian.fr@SD" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="Others",Euronews Italian (720p)
 https://acb6ca89.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0l0YWxpYW5vX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-id="EuronewsSpanish.fr@SD" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="Others",Euronews Spanish (1080p)
+https://iptv.bitred.cl/euronews/index.m3u8
 #EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" group-title="Others",Fox News Channel (720p)
 http://138.121.15.230:9002/FOX-NEWS/index.m3u8
 #EXTINF:-1 tvg-id="FoxNewsRadio.us@SD" tvg-logo="https://radio.foxnews.com/wp-content/uploads/2017/10/default_logo-150x150.png" group-title="Others",Fox News Radio (720p)
@@ -273,6 +271,10 @@ https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3
 https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-name="东南卫视" tvg-id="东南卫视" tvg-logo="https://tb.zbds.top/logo/东南卫视.png" group-title="卫视频道", 东南卫视
 http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
+#EXTINF:-1 tvg-name="东方卫视" tvg-id="东方卫视" tvg-logo="https://tb.zbds.top/logo/东方卫视.png" group-title="卫视频道", 东方卫视
+http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
+#EXTINF:-1 tvg-name="东方卫视4K" tvg-id="东方卫视4K" tvg-logo="https://tb.zbds.top/logo/东方卫视4K.png" group-title="卫视频道", 东方卫视4K
+https://bp-resource-dfl.bestv.cn/148/3/video.m3u8
 #EXTINF:-1 tvg-name="人间卫视" tvg-id="人间卫视" tvg-logo="https://tb.zbds.top/logo/人间卫视.png" group-title="卫视频道", 人间卫视
 https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w511254805.m3u8
 #EXTINF:-1 tvg-name="内蒙古卫视" tvg-id="内蒙古卫视" tvg-logo="https://tb.zbds.top/logo/内蒙古卫视.png" group-title="卫视频道", 内蒙古卫视
